@@ -11,7 +11,12 @@
 
 ## usage
 ```bash
+# install
+## pip install git url
 $ pip install git+https://github.com/j25ng/knn_j25ng.git
+## pypi
+$ pip install knn-j25ng
+
 $ fish
 🐟 물고기의 길이를 입력하세요 (cm): 10.8
 🐟 물고기의 무게를 입력하세요  (g): 8.7
