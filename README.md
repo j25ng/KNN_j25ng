@@ -24,11 +24,13 @@ $ fish
 🐟 이 물고기는 빙어입니다.
 🐟 예측이 맞습니까? (y/n): y
 🐟 예측 성공🥳
-
+```
+```bash
 # data chart(use matplotlib)
 $ chart
 ### display the figure window ###
 ```
+
 <img src="https://github.com/user-attachments/assets/f585310b-d655-4d6e-a411-8648da14eecc" width=600 />
 
 ## data
