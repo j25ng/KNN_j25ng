@@ -17,12 +17,17 @@ $ pip install git+https://github.com/j25ng/knn_j25ng.git
 ## use pypi
 $ pip install knn-j25ng
 
+# data training
 $ fish
 🐟 물고기의 길이를 입력하세요 (cm): 10.8
 🐟 물고기의 무게를 입력하세요  (g): 8.7
 🐟 이 물고기는 빙어입니다.
 🐟 예측이 맞습니까? (y/n): y
 🐟 예측 성공🥳
+
+# data chart(use matplotlib)
+$ chart
+### display the figure window ###
 ```
 
 ## data
