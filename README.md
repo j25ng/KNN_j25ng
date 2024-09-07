@@ -1,5 +1,5 @@
 # Weekly program no.1 - 자가 학습 KNN
-<img src="https://github.com/user-attachments/assets/95fc7a55-c30e-40a6-a731-f1983b72a407" width=600/>
+<img src="https://github.com/user-attachments/assets/54bb1109-4a67-4dbb-b714-0893e9c6f420" width=600 />
 
 ## 프로그램 동작 방식
 - [ ] 학습된 모델이 없는 상태에서 출발
@@ -18,4 +18,15 @@ $ fish
 🐟 이 물고기는 빙어입니다.
 🐟 예측이 맞습니까? (y/n): y
 🐟 예측 성공🥳
+```
+
+## data
+```bash
+$ cd ~/code/data
+$ tree
+.
+├── data.json
+└── target.json
+
+0 directories, 2 files
 ```
