@@ -12,9 +12,9 @@
 ## usage
 ```bash
 # install
-## pip install git url
+## use git url
 $ pip install git+https://github.com/j25ng/knn_j25ng.git
-## pypi
+## use pypi
 $ pip install knn-j25ng
 
 $ fish
