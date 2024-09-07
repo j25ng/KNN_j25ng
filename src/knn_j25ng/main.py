@@ -1,4 +1,5 @@
 from sklearn.neighbors import KNeighborsClassifier
+import matplotlib.pyplot as plt
 import numpy as np
 import random
 import json
@@ -64,3 +65,24 @@ def main():
 
     save_data("data.json", x_train)
     save_data("target.json", y_train)
+
+def chart():
+    fish = get_data("data.json")
+    target = get_data("target.json")
+
+    bream = []
+    smelt = []
+
+    for i in range(len(fish)):
+        if target[i] == 0:
+            bream.append(fish[i])
+        else:
+            smelt.append(fish[i])
+
+    bream = np.array(bream)
+    smelt = np.array(smelt)
+    plt.scatter(bream[:,0], bream[:,1], marker="o")
+    plt.scatter(smelt[:,0], smelt[:,1], marker="8")
+    plt.xlabel('length')
+    plt.ylabel('weight')
+    plt.show()
