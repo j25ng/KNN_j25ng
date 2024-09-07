@@ -30,7 +30,7 @@ $ fish
 $ chart
 ### display the figure window ###
 ```
-
+### chart window
 <img src="https://github.com/user-attachments/assets/f585310b-d655-4d6e-a411-8648da14eecc" width=600 />
 
 ## data
