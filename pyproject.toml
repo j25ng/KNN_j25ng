@@ -1,6 +1,6 @@
 [project]
 name = "knn_j25ng"
-version = "2.0.2"
+version = "2.0.3"
 description = "Implements KNN model using KNeighborsClassifier"
 authors = [
     {name = "j25ng", email = "jsan2861@gmail.com"},
